@@ -1,0 +1,168 @@
+body{
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    text-indent: 30px;
+    font-size: 1.5em;
+}
+nav ul{
+    align-items: center;
+
+}
+.textoalinhado{
+    padding: 5px;
+    display: flex;
+    text-align: center;
+}
+ul li {
+    text-indent: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3em;
+    padding: 1rem .8rem;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+/* SECTION SOBRE */
+.imgcontainer{
+    margin: auto;
+    margin-left: 5%;
+}
+
+.sobre{
+    padding: 5%; 
+
+}
+
+.textosobre{
+    color: ghostwhite;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textosobre h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* SECTION HOBBIES */
+.container{
+    position: relative;
+    padding: 5%;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 55px;
+    color: ghostwhite;
+    margin-top: 30px;
+}
+
+.textohobbie{
+    text-align:center;
+    text-indent: 10px;
+    color: ghostwhite;
+    line-height: 1.5;
+    margin: 2vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+#itemaquiagem{
+   
+}
+.itemhobbie{
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    margin: 25px;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+    color: ghostwhite;
+    margin-top: 30px;
+}
+
+
+/* Qualificação Profissional */
+
+.textoqualif{
+    color: ghostwhite;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5 5 0 5;
+}
+
+.tituloquali{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    color: ghostwhite;
+    margin-top: 50px;
+}
+
+.accordion-item{
+    background-color: transparent;
+}
+
+.itemqualif{
+    margin-top: 0;
+    color: rgba(248, 248, 255, 0);
+}
+
+.imgqualif{
+    margin-top: 5%;
+}
+
+.accordion-header{
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: #8db8e3;
+}
+
+.accordion-button{
+    text-align: left;
+}
+
+.accordion-body{
+    color: rgb(226, 226, 226);
+}
+
+
+
+/* Competencias Socioemocionais */
+
+.itemcompete{
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Projetos e Trabalhos */
+
+.card-text{
+    text-indent: 0;
+    font-size: 1.0em;
+}
+
+.imgfooter{
+    border-radius: 5%;
+    position:relative;
+}
+
+.accordion-body{
+    color: blueviolet;
+}
